@@ -53,7 +53,7 @@ export default function Auth() {
         })
         .then((res) => res.data)
         .then((data) => {
-          sessionStorage.setItem("user", data.user);
+          dispatch(addUser(data.user));
           localStorage.setItem("token", data.token);
           navigate("/home");
         })
