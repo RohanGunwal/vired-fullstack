@@ -38,7 +38,12 @@ export default function TemporaryDrawer(props) {
     >
       <List>
         {data.map((e, index) => (
-          <ListItem key={e.id} disablePadding>
+          <ListItem key={e.id} disablePadding sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-end",
+              paddingRight: "20px",
+            }}>
             <ListItemButton>
               <ListItemIcon>
                 <FiberManualRecordIcon
@@ -57,6 +62,10 @@ export default function TemporaryDrawer(props) {
               </ListItemIcon>
               <ListItemText primary={e.question} />
             </ListItemButton>
+            <ListItemText
+              primary={`Marks : ${e.totalMarks}`}
+              sx={{ color: "rgb(107 114 128)" }}
+            />
           </ListItem>
         ))}
       </List>
