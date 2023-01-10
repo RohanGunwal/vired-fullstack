@@ -44,7 +44,7 @@ export default function CourseCard(props) {
           href={`${data.pptLink}`}
           target="_blank"
           rel="noreferrer"
-          className="text-blue-500 no-underline font-semibold text-sm font-roboto"
+          className="text-blue-500 no-underline font-semibold text-sm font-roboto hover:bg-blue-50 p-2 transition-all ease-in-out rounded"
         >
           PPT
         </a>
