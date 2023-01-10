@@ -4,7 +4,6 @@ import LandingPage from "./components/LandingPage.js";
 import "./App.css";
 import Auth from "./components/Auth.js";
 import Home from "./components/Home.js";
-import Assignment from "./components/Assignment.js";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -27,7 +26,6 @@ function App() {
             <Home isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
           }
         />
-        <Route path="/assignments" element={<Assignment />} />
       </Routes>
     </div>
   );
