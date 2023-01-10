@@ -51,7 +51,7 @@ export default function Home(props) {
         handleLogout={handleLogout}
         name={localStorage.getItem("username")}
       />
-      <div className="flex flex-col lg:flex-row lg:justify-around items-center gap-6 mt-6 h-full">
+      <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-around items-center gap-6 mt-6 h-full">
         {courseData.map((e, index) => (
           <CourseCard
             key={e.id}
