@@ -11,11 +11,11 @@ export default function Home(props) {
   const [assignmentData, setAssignmentData] = useState([]);
   const { isLoggedIn, setIsLoggedIn } = props;
   const navigate = useNavigate();
+  if (user !== "") {
+      localStorage.setItem("username", user.name);
+  }
 
   useEffect(() => {
-    if (user !== "") {
-      localStorage.setItem("username", user.name);
-    }
     setIsLoggedIn(true);
     if (!localStorage.getItem("token")) {
       navigate("/");
