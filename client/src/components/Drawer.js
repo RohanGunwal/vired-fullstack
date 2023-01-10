@@ -11,7 +11,6 @@ import { ListItemIcon } from "@mui/material";
 
 export default function TemporaryDrawer(props) {
   const { data } = props;
-  console.log(data);
   const [state, setState] = React.useState({
     top: false,
     left: false,
