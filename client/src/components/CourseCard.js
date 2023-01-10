@@ -17,16 +17,21 @@ export default function CourseCard(props) {
         title="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h4" component="div">
           {data?.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe impedit
-          modi, numquam voluptatum iste, facere voluptatem dignissimos quidem ut
-          fuga eius cupiditate doloremque error aut architecto! Provident
-          repudiandae aliquam ab maxime in voluptatum quidem culpa beatae?
-          Quisquam neque quaerat rem consectetur corporis modi exercitationem
-          delectus laboriosam, quia error ut voluptatibus.
+        <Typography variant="body2" color="text.secondary" className="flex flex-col">
+          {data?.topics.map((e, index) => (
+            <a
+              href={data?.readingMaterial[index]}
+              rel="noreferrer"
+              target="_blank"
+              key={index}
+              className="no-underline text-gray-600 text-base hover:bg-gray-100 py-2 px-2 hover:text-blue-700 rounded-lg hover:shadow-lg hover:font-semibold transition-all ease-in-out"
+            >
+              {e}
+            </a>
+          ))}
         </Typography>
       </CardContent>
       <CardActions className="flex justify-end gap-6">
