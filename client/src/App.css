@@ -1,0 +1,10 @@
+#logo {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(36, 33, 0, 0.9) 19%,
+    rgba(255, 242, 26, 1) 26%,
+    rgba(222, 48, 115, 1) 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

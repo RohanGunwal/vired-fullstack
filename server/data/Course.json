@@ -1,0 +1,62 @@
+[
+  {
+    "title": "HTML",
+    "topics": [
+      "Introduction to HTML",
+      "HTML elements",
+      "HTML attributes",
+      "HTML forms",
+      "HTML links",
+      "HTML classed and id"
+    ],
+    "pptLink": "https://www.slideshare.net/vijayanit/html-ppt-4416063",
+    "readingMaterial": [
+      "https://www.w3schools.com/html/html_basic.asp",
+      "https://www.w3schools.com/html/html_elements.asp",
+      "https://www.w3schools.com/html/html_attributes.asp",
+      "https://www.w3schools.com/html/html_forms.asp",
+      "https://www.w3schools.com/html/html_links.asp",
+      "https://www.w3schools.com/html/html_classes.asp"
+    ]
+  },
+  {
+    "title": "CSS",
+    "topics": [
+      "Introduction to CSS",
+      "CSS selectors",
+      "CSS margin and Padding",
+      "CSS links",
+      "CSS display Flex/Grid",
+      "CSS Positions"
+    ],
+    "pptLink": "https://www.slideshare.net/webdevninja/introduction-to-css-13603389",
+    "readingMaterial": [
+      "https://www.w3schools.com/css/css_intro.asp",
+      "https://www.w3schools.com/css/css_selectors.asp",
+      "https://www.w3schools.com/css/css_margin.asp",
+      "https://www.w3schools.com/css/css_link.asp",
+      "https://www.w3schools.com/css/css3_flexbox.asp",
+      "https://www.w3schools.com/css/css_positioning.asp"
+    ]
+  },
+  {
+    "title": "JavaScript",
+    "topics": [
+      "Introduction to javascript",
+      "functions",
+      "classes",
+      "promises",
+      "control flow",
+      "loops and iteration"
+    ],
+    "pptLink": "https://www.slideshare.net/mussawir20/javascript-presentation-698030?qid=cfeee325-e192-4797-9427-2e8b845e5293&v=&b=&from_search=2",
+    "readingMaterial": [
+      "https://developer.mozilla.org/en-US/docs/Web/javascript",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_Classes",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+    ]
+  }
+]
